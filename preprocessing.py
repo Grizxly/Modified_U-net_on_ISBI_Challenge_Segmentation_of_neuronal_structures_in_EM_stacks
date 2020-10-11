@@ -6,9 +6,9 @@ to generate training data
 """
 img_list, label_list = [], []
 
-IMG_NAME = '/home/xin/comp9517/proj/data/images/train-volume'
-LABEL_NAME = '/home/xin/comp9517/proj/data/labels/train-labels'
-SAVE_DIR = '/home/xin/comp9517/proj/data/augmentation'
+IMG_NAME = './data/images/train-volume'
+LABEL_NAME = './data/labels/train-labels'
+SAVE_DIR = './data/augmentation'
 NUM_IMAGE = 25 # num of img used to generate
 QUANTITY = 3 # total number pairs to be generate(for square img) = (quantity + 1) * #img * 6
 for i in range(0, NUM_IMAGE):
