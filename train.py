@@ -14,10 +14,10 @@ continue = True: keep training the model on exist model at SAVE_PATH
 """
 
 
-IMG_PATH = '/home/xin/comp9517/proj/data/augmentation/dev_samples/train'
-LABEL_PATH = '/home/xin/comp9517/proj/data/augmentation/dev_labels/label'
-WEIGHT_MAP_PATH = '/home/xin/comp9517/proj/data/augmentation/weight_maps/wm'
-SAVE_PATH = '/home/xin/comp9517/proj/checkpoint/'
+IMG_PATH = './data/augmentation/dev_samples/train'
+LABEL_PATH = './data/augmentation/dev_labels/label'
+WEIGHT_MAP_PATH = './data/augmentation/weight_maps/wm'
+SAVE_PATH = './checkpoint/'
 FILE_NAME = 'unet.ckpt'
 CONTINUE = True
 
