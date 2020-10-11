@@ -5,6 +5,10 @@ Implement a modified U-net, train and run for segmentation tasks on neuronal str
 * For more detail about the model please refer to 'report.pdf'
 * The model runs on Tensorflow 1.14 ONLY
 
+To use the model:
+1. Download the original dataset from the source mentioned above.
+2. Run preprocessing.py to generate augmented training set
+3. Run train.py to train the model 
+4. Run run.py to run trained model on desired input
 
-
-
+cheers
